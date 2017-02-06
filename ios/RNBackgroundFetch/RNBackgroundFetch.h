@@ -9,8 +9,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <React/RCTEventEmitter.h>
-#import <React/RCTLog.h>
+#import "RCTEventEmitter.h"
+#import "RCTLog.h"
 
 @interface RNBackgroundFetch : RCTEventEmitter <UIApplicationDelegate>
 
